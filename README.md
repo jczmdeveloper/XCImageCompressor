@@ -4,7 +4,7 @@ An Android Image Compressor which use bither-android-lib - Android 图片压缩�
 使用方法：
 
 
-List<String> srcFilePathList = new ArrayList<>();
+        List<String> srcFilePathList = new ArrayList<>();
         List<String> outputFilePathList = new ArrayList<>();
         XCImageCompressor.compress(srcFilePathList, new XCImageCompressor.ImageCompressListener() {
             @Override
